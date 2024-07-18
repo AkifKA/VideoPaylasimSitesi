@@ -1,0 +1,25 @@
+﻿.profile-pic {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+}
+
+    .profile-pic img {
+        border-radius: 50%;
+    }
+
+.edit-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+.profile-pic:hover .edit-icon {
+    display: block;
+}
